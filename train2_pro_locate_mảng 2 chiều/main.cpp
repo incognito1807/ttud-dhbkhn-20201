@@ -11,8 +11,9 @@ vector<pair<int, int>> a, b;
 int c[N][N];
 int l, w;
 
-int main()
-{
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     int T;
     cin >> T;
     while(T--) {
