@@ -25,8 +25,7 @@ int leng(int v[], int n) {
     for(int i = 1; i < n; i++) {
         if(v[i] < a[0])
             a[0] = v[i];
-
-        else if(v[i] > a[res - 1])
+        else if(v[i] == a[res - 1]-1)
             a[res++] = v[i];
             a[test(a, -1, res - 1, v[i])] = v[i];
     }
